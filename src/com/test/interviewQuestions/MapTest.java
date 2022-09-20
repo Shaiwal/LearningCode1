@@ -41,12 +41,12 @@ class Emp{
 	
 	/*
 	 * Uncomment this to test
-	 */
+	 
 	@Override
 	public boolean equals(Object o) {
 		if(o instanceof Emp && ((Emp)o).employeeId == this.employeeId) {
 			return true;
 		}
 		return false;
-	}
+	}*/
 }
